@@ -1,13 +1,12 @@
-#include "Vector.h"
+#include "Vector3.h"
 #include <iostream>
 
 using namespace std;
 
-
 int main(){
-  Vector b(1,1,1);
-  Vector a(1);
-  Vector d,e,f,g;
+  Vector3 b(1,1,1);
+  Vector3 a(1);
+  Vector3 d,e,f,g;
 
   d = a+b;
   e = -b;
@@ -22,5 +21,7 @@ int main(){
 
   cin >> a;
   cout << a << endl;
+
   return 0;
+
 }
