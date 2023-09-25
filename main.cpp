@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 int main(){
   Vector b(1,1,1);
   Vector a(1);
